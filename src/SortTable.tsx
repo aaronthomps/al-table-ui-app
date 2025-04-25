@@ -20,6 +20,8 @@ const defaultData: PurchaseOrder[] = [
         itemDescription: 'Big Rock',
         purchaseDetailItemAutoId: 50,
         itemNumber: 123,
+        lastModifiedByUser: 'system',
+        lastModifiedDateTime: new Date(),
     },
     {
         purchaseOrderNumber: '22',
@@ -29,6 +31,8 @@ const defaultData: PurchaseOrder[] = [
         itemDescription: 'Solid Paper',
         purchaseDetailItemAutoId: 80,
         itemNumber: 234,
+        lastModifiedByUser: 'system',
+        lastModifiedDateTime: new Date(),
     },
     {
         purchaseOrderNumber: '33',
@@ -38,6 +42,8 @@ const defaultData: PurchaseOrder[] = [
         itemDescription: 'Sharp sissors',
         purchaseDetailItemAutoId: 10,
         itemNumber: 345,
+        lastModifiedByUser: 'system',
+        lastModifiedDateTime: new Date(),
     },
 ]
 
