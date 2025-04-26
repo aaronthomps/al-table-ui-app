@@ -357,7 +357,6 @@ function Filter({ column }: { column: Column<any, unknown> }) {
     return filterVariant === 'range' ? (
         <div>
             <div className="flex space-x-2">
-                {/* See faceted column filters example for min max values functionality */}
                 <DebouncedInput
                     type="number"
                     value={(columnFilterValue as [number, number])?.[0] ?? ''}
@@ -384,7 +383,6 @@ function Filter({ column }: { column: Column<any, unknown> }) {
             onChange={e => column.setFilterValue(e.target.value)}
             value={columnFilterValue?.toString()}
         >
-            {/* See faceted column filters example for dynamic select options */}
             <option value="">All</option>
             <option value="complicated">complicated</option>
             <option value="relationship">relationship</option>
@@ -398,7 +396,6 @@ function Filter({ column }: { column: Column<any, unknown> }) {
             type="text"
             value={(columnFilterValue ?? '') as string}
         />
-        // See faceted column filters example for datalist search suggestions
     )
 }
 
